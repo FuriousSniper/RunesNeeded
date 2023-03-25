@@ -1,0 +1,25 @@
+form{
+  z-index: 2;
+}
+.inputWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  z-index: 2;
+}
+
+.submitRow{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: stretch;
+  z-index: 2;
+}
+.submitRow > button{
+  grid-column: 2;
+  z-index: 2;
+}
+
+.inputRow{
+  display: block;
+  margin: 15px 0;
+}

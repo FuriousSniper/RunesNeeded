@@ -1,0 +1,7 @@
+.inputTd {
+  max-width: 160px;
+}
+
+.inputTd input[type="number"] {
+  max-width: 40%;
+}

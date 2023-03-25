@@ -1,0 +1,61 @@
+.logo {
+  content: "";
+  margin: 0 auto;
+  background: url("../../static/images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.25;
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: block;
+  z-index: 2;
+  margin: 10px;
+}
+
+.wasted {
+  color: red;
+}
+
+.notEnough{
+  color: orange;
+}
+
+.addedER {
+  color: rgb(236, 211, 140);
+}
+
+.options {
+  display: flex;
+}
+
+.optionsLeft {
+  display: flex;
+  justify-content: flex-start;
+  grid-column-gap: 5px;
+  width: 50%;
+}
+
+.optionsRight {
+  display: flex;
+  justify-content: flex-end;
+  grid-column-gap: 5px;
+  width: 50%;
+}

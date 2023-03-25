@@ -1,38 +1,49 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  color: rgb(236, 211, 140);
+  width: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  background-size: contain;
+  overflow-y: auto;
 }
 
-.App-link {
-  color: #61dafb;
+::selection {
+  background: rgb(177, 177, 175);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-moz-selection {
+  background: rgb(177, 177, 175);
+}
+
+.liurnia{
+  background: url("./static/images/backgrounds/liurnia.PNG");
+}
+
+.caelid{
+  background: url("./static/images/backgrounds/caelid.PNG");
+}
+
+.erdtree{
+  background: url("./static/images/backgrounds/erdtree.PNG");
+  color: black;
+}
+
+.academy{
+  background: url("./static/images/backgrounds/academy.PNG");
+  color: cyan;
+}
+
+.limgrave{
+  background: url("./static/images/backgrounds/limgrave.PNG");
+}
+
+.altus{
+  background: url("./static/images/backgrounds/altus.PNG");
+  color: black;
+}
+
+.black{
+  background: rgb(0,0,0)
 }

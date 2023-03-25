@@ -1,0 +1,83 @@
+
+.numberInputER {
+    background: linear-gradient(
+      90deg,
+      #0a0a0a 0,
+      #0a0a0a 1%,
+      #191512 10%,
+      #191512 90%,
+      #0a0a0a 99%,
+      #0a0a0a 100%
+    );
+    color: #a3a1a1;
+    border: none;
+    outline: 0;
+    /*display: block;*/
+    text-align: center;
+    width: auto;
+    max-height: 21px;
+  }
+  
+  .numberInputER:hover {
+    background: linear-gradient(
+      90deg,
+      #0a0a0a 0,
+      #0a0a0a 1%,
+      #333125 10%,
+      #333125 90%,
+      #0a0a0a 99%,
+      #0a0a0a 100%
+    );
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  .tickButtonER{
+    border: none;
+    background: transparent;
+    color: rgb(200,194,176);
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 0;
+    margin-top: 1px;
+  }
+  
+  .tickButtonER:enabled:hover{
+    animation: blinkingTickButton 1.5s infinite;
+  }
+  
+  @keyframes blinkingTickButton {
+    0% {
+      webkit-text-shadow: none;
+      -moz-text-shadow: none;
+      text-shadow: none;
+      color: rgb(200,194,176);
+    }
+    50% {
+      webkit-text-shadow: 0 0 25px rgba(208,205,196,1);
+      -moz-text-shadow: 0 0 25px rgba(208,205,196,1);
+      text-shadow: 0 0 25px rgba(208,205,196,1);
+  
+      color: rgb(208,205,196);
+    }
+    100% {
+      webkit-text-shadow: none;
+      -moz-text-shadow: none;
+      text-shadow: none;
+      color: rgb(200,194,176);
+    }
+  }
+
+  label{
+    font-family: Garamond;
+  }

@@ -1,0 +1,49 @@
+table {
+  width: 100%;
+  table-layout: auto;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.textureContainer {
+  position: relative;
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.runeTexture {
+  max-width: 48px;
+  max-height: 48px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.overlay {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: url("../../static/images/delete.png");
+  background-size: contain;
+  z-index: 3;
+}
+
+.textureContainer:hover .overlay {
+  opacity: 0.5;
+}
+
+.runeName {
+  text-align: center;
+  vertical-align: middle;
+}
