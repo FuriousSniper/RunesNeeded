@@ -8,6 +8,7 @@
     "default_popup": "index.html",
     "default_title": "Runes Needed",
     "default_icon": {
+      "16": "favicon.png",
       "48": "logo48.png",
       "96": "logo96.png"
     }
@@ -18,6 +19,7 @@
     "unlimitedStorage"
   ],
   "icons": {
+    "16": "favicon.png",
     "48": "logo48.png",
     "96": "logo96.png"
   }
